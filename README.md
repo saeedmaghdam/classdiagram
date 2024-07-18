@@ -9,3 +9,5 @@ class Student
 Teacher --> Student : teaches
 @enduml
 ```
+
+![](./relation/association.png)
