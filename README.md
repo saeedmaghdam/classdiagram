@@ -54,3 +54,19 @@ House *-- Room : has
 - **Example:** A **Dog** is an **Animal**.
 
 ![](./relation/generalization.png)
+
+## Realization
+
+- **Description:** This relationship is used to show that a class implements an interface.
+- **Example:** A **Printer** implements a **Printable** interface.
+
+```plantuml
+@startuml
+interface Printable
+class Printer
+
+Printable <|.. Printer : implements
+@enduml
+```
+
+![](./relation/realization.png)
