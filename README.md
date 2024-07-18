@@ -47,3 +47,10 @@ House *-- Room : has
 ```
 
 ![](./relation/composition.png)
+
+## Inheritance (Generalization)
+
+- **Description:** This represents an "is-a" relationship. A child class inherits attributes and methods from a parent class.
+- **Example:** A **Dog** is an **Animal**.
+
+![](./relation/generalization.png)
