@@ -99,3 +99,6 @@ Printable <|.. Printer : implements
 ```
 
 ![](./relation/fullexample.png)
+
+## Referrences
+- [https://www.umlboard.com/docs/relations/](https://www.umlboard.com/docs/relations/)
