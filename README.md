@@ -11,3 +11,15 @@ Teacher --> Student : teaches
 ```
 
 ![](./relation/association.png)
+
+## Aggregation
+```plantuml
+@startuml
+class Library
+class Book
+
+Library o-- Book : contains
+@enduml
+```
+
+![](./relation/aggregation.png)
