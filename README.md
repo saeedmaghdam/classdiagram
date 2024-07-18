@@ -1,5 +1,9 @@
 # Class diagram relations
 
+## Overview
+
+![](./relation/relations-in-uml-overview.png)
+
 ## Association
 
 - **Description:** This represents a relationship between two classes that need to communicate with each other.
