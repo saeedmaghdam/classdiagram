@@ -70,3 +70,28 @@ Printable <|.. Printer : implements
 ```
 
 ![](./relation/realization.png)
+
+## Full Example
+
+```plantuml
+@startuml
+class Teacher
+class Student
+class Library
+class Book
+class House
+class Room
+class Animal
+class Dog
+interface Printable
+class Printer
+
+Teacher --> Student : teaches
+Library o-- Book : contains
+House *-- Room : has
+Animal <|-- Dog : is-a
+Printable <|.. Printer : implements
+@enduml
+```
+
+![](./relation/fullexample.png)
